@@ -1,0 +1,11 @@
+<div class="w-75 quote-container" *ngFor='let quote of quotesList;let i = index'>
+  <p class="actualQuote">"{{quote.actual}}"</p>
+  <div class="author-container">
+    <p class="author-line">-{{quote.author}}</p>
+  </div>
+  <div id="buttons">
+    <button class="btn btn-sm show" (click)="showDetails(i)">Details</button>
+    <button class="btn btn-sm btn-danger" (click)="delete.emit(i)">Delete</button>
+  </div>
+  <app-quote-info *ngIf='quote.showDescription' [quoteDet]="quote" [index]='i' (upvote)="toUpVote($event,i)" (downvote) = "toDownVote($event,i)" ></app-quote-info>
+</div>

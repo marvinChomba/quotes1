@@ -1,0 +1,21 @@
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  outline-style: none;
+}
+.fa-thumbs-up {
+  color: limegreen;
+}
+.fa-thumbs-down {
+  color: crimson;
+}
+.date {
+  font-size: 13px;
+}
+#details {
+  margin-top: 15px;
+}
+.info {
+  font-weight: bold;
+}

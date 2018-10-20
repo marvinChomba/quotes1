@@ -1,0 +1,40 @@
+.quote-container {
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: -1px 1px 16px -1px rgba(0,0,0,0.75);
+  background-color: whitesmoke;
+  margin: 20px;
+}
+.author-container {
+  text-align: right;
+  padding: 10px;
+}.author-line {
+  font-style: italic;
+}
+.date {
+  font-size: 13px;
+}
+.actualQuote {
+  font-weight: bold;
+}
+button {
+  border: none;
+  outline: none;
+  outline-style: none;
+}
+.fa-thumbs-up {
+  color: limegreen;
+}
+.fa-thumbs-down {
+  color: crimson;
+}
+button.btn-sm.show {
+  background: #3498DB ;
+}
+.btn-danger {
+  margin-right: 0;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
