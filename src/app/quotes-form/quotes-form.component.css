@@ -11,3 +11,21 @@ h2 {
   font-family: Karla;
   margin-bottom: 20px;
 }
+#invalid-text {
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: none;
+  text-align: center
+}
+#invalid-text span {
+  color: crimson;
+}
+.text-invalid {
+  color: red;
+  margin-left: 10px;
+  font-size: 13px;
+  display: none;
+}
+.invalid-input {
+  border: 1px solid red;
+}
