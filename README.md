@@ -17,7 +17,7 @@ The user can also delete quotes which they don't like
 7. Visual Studio Code
 
 ### How to use
-1. A user fills the "Add Quote" form. He/she has to fill all the areas otherwise the user will not be allowed to submit it.The author and publisher fields have to be alphabetical characters only.
+1. A user fills the "Add Quote" form. He/she has to fill all the fields otherwise the user will not be allowed to submit it.The author and publisher fields have to be alpha characters **only**.
 2. After filling in the user can submit. The quote will be added at the top.
 3. The user can upvote a quote. The quote with the highest upvotes will be highlighted blue. 
 4. **ONLY QUOTES WITH MORE THAN  5 UPVOTES WILL BE HIGHLIGHTED**
