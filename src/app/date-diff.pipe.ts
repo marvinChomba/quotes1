@@ -9,8 +9,7 @@ export class DateDiffPipe implements PipeTransform {
     let now:any = new Date();
     var diff = now.getTime() - value.getTime();
     diff = diff / 1000;
-    diff = diff / 60;
-    diff = diff / 60;
+    diff = diff / (60*60)
     diff = diff / 24;
     return Math.ceil(diff) - 1;
   }
