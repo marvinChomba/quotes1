@@ -7,6 +7,9 @@
   background: white;
   box-shadow: -1px 1px 16px -1px rgba(0,0,0,0.75);
 }
+textarea {
+  resize: none;
+}
 h2 {
   font-family: Karla;
   margin-bottom: 20px;
