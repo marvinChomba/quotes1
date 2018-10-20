@@ -43,9 +43,9 @@ The user can also delete quotes which they don't like
 There are no know bugs. Contact marvin.chomba24@gmail.com incase of any bugs
 
 ### Live site
-You can view the live site [here](https://marvinchomba.github.io/quotes/)
+You can view the live site [here](https://marvinchomba.github.io/quotes1/)
 
 ### Licence
-This project is under the [MIT](https://github.com/marvinChomba/quotes/blob/master/LICENSE) licence
+This project is under the [MIT](https://github.com/marvinChomba/quotes1/blob/master/LICENSE) licence
 
 Copyright (c) 2018 marvinchomba
