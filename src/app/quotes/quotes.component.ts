@@ -13,6 +13,22 @@ export class QuotesComponent implements OnInit {
     new Quotes("Coding is like toothpaste","Raphael Katana",0,0,new Date(2018,9,18),"Zig Ziglar"),
     new Quotes("Manchester United is better than Chelsea","No One Ever",0,0,new Date(2018,9,19),"Marvin Chomba")
   ]
+  highestArr:any[]
+  highestVotes() {
+    this.highestArr = this.quotesList.map(element => {
+      return element.upvote;
+    });
+    let numHigh = Math.max(...this.highestArr);
+    this.quotesList.forEach(element => {
+      if(element.upvote === numHigh && numHigh >= 5) {
+        element.highestVote = true;
+      } else {
+        element.highestVote = false;
+      }
+    });
+    
+  }
+  
   add(quote) {
     this.quotesList.unshift(quote);
   }
@@ -21,11 +37,13 @@ export class QuotesComponent implements OnInit {
   }
   upVote(i) {
     this.quotesList[i].upvote++;
+    this.highestVotes();
+
   }
   deleteQuote(i) {
     this.quotesList.splice(i,1);
   }
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

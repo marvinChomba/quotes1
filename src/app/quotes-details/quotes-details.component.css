@@ -41,6 +41,10 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.quoteDay {
+  font-weight: bold;
+  color: #5BC0DE;
+}
 @media (max-width:768px) {
   #one {
     padding: 40px;

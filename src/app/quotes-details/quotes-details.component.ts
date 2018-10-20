@@ -12,6 +12,8 @@ export class QuotesDetailsComponent implements OnInit {
   @Output() upVote = new EventEmitter();
   @Output() downVote  = new EventEmitter();
   @Output() delete = new EventEmitter();
+  
+  
   showDetails(i) {
     this.quotesList[i].showDescription = !this.quotesList[i].showDescription
   }
@@ -21,15 +23,12 @@ export class QuotesDetailsComponent implements OnInit {
   toDownVote(down,i) {
     this.downVote.emit(i);
   }
-  highestVotes() {
-    let arr = this.quotesList.map(obj => obj.upvote);
-    let highest = Math.max(...arr);
-    let highestObj = this.quotesList[arr.indexOf(highest)];
-    highestObj.highest = true;
-  }
+  
   constructor() { }
 
   ngOnInit() {
   }
+  
+  
 
 }
