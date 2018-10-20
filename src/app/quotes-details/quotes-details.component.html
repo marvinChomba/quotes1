@@ -1,6 +1,6 @@
 <div id="one" *ngFor='let quote of quotesList;let i = index'>
   <div  class="w-75 quote-container" [class.highestQuote]="quote.highestVote" [style.backgroundColor]="quote.highestVote ? '#D4E6F1' : white"  appHighlight>
-    <p class="actualQuote ml-2">{{quote.actual}}" </p>
+    <p class="actualQuote ml-2">"{{quote.actual}}" </p>
     <div class="author-container">
       <p class="author-line">-{{quote.author}}</p>
     </div>
