@@ -36,6 +36,11 @@ h2 {
   #form {
     position: static;
     width: 300px;
-    margin-left: 35%;
+  }
+}
+@media (max-width: 490px) {
+  #form {
+    position: relative;
+    right: 43%;
   }
 }
