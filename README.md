@@ -1,27 +1,51 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+### Author
+Marvin Chomba
 
-## Development server
+### Description
+This is a webpage that allows users to add funny quotes,upvote them and downvote them.
+The user can also delete quotes which they don't like
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Tech Used
+1. HTML for setting up the webpage
+2. CSS and Bootsrap for styling the page
+3. JavaScript and jQuery for adding functionality
+4. Git for version control
+5. Angular 6 
+6. Typescript
+7. Visual Studio Code
 
-## Code scaffolding
+### How to use
+1. A user fills the "Add Quote" form. He/she has to fill all the areas otherwise the user will not be allowed to submit it.The author and publisher fields have to be alphabetical characters only.
+2. After filling in the user can submit. The quote will be added at the top.
+3. The user can upvote a quote. The quote with the highest upvotes will be highlighted blue. 
+4. **ONLY QUOTES WITH MORE THAN  5 UPVOTES WILL BE HIGHLIGHTED**
+5. The user can also downvote quotes that they don't like.
+6. The user can delete a quote
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    
 
-## Build
+### Prerequisites
+1. To clone this project to your local folder, you will first need to install git.
+  Use this command in your terminal
+  `$ sudo apt install git-all`
+2. The user will also require angular
+    `$ npm install -g @angular/cli`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Setup
+1. To access this project, you will need to clone it.
+2. Use this command in your terminal.
+`git clone https://github.com/marvinChomba/quotes`
+3. __Enjoy__
 
-## Running unit tests
+### Known Bugs
+There are no know bugs. Contact marvin.chomba24@gmail.com incase of any bugs
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Live site
+You can view the live site [here](https://marvinchomba.github.io/quotes/)
 
-## Running end-to-end tests
+### Licence
+This project is under the [MIT](https://github.com/marvinChomba/quotes/blob/master/LICENSE) licence
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 marvinchomba
