@@ -7,7 +7,7 @@
 }
 .author-container {
   text-align: right;
-  padding: 10px;
+  padding: 5px;
 }.author-line {
   font-style: italic;
 }
@@ -28,9 +28,9 @@ button {
 .fa-thumbs-down {
   color: crimson;
 }
-button.btn-sm.show {
+/* button.btn-sm.show {
   background: #3498DB ;
-}
+} */
 .btn-danger {
   margin-right: 0;
 }

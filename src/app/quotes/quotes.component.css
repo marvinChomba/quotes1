@@ -1,4 +1,10 @@
 h1 {
-  text-align: center;
-  font-family: Bungee Shade;
+  margin: 2% 25% 2% 34%;
+  font-family: Permanent Marker;
+  font-weight: 700;
+}
+body {
+  background: #ECF0F1;
+  width: 100%;
+  overflow-x: hidden;
 }
