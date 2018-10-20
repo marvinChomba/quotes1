@@ -32,3 +32,10 @@ h2 {
 .invalid-input {
   border: 1px solid red;
 }
+@media (max-width: 768px) {
+  #form {
+    position: static;
+    width: 300px;
+    margin-left: 35%;
+  }
+}

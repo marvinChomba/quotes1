@@ -1,7 +1,7 @@
 <div id="details">
   <p class="date">Posted on <span class="info">{{quoteDet.date|date}}</span> by <span class="info">{{quoteDet.submitter}}</span> ( <span class="info">{{quoteDet.date|dateDiff}}</span> day[s] ago )</p>
   <div class="feedback">
-    <button (click)="upvote.emit()"><i class="mx-2 fas fa-thumbs-up"></i>{{quoteDet.upvote}}</button>
-    <button (click)="downvote.emit()"><i class="fas mx-2 fa-thumbs-down"></i>{{quoteDet.downvote}}</button>
+    <button (click)="upvote.emit()"><i class="mx-2 fas fa-thumbs-up"></i></button>{{quoteDet.upvote}}
+    <button (click)="downvote.emit()"><i class="fas mx-2 fa-thumbs-down"></i></button>{{quoteDet.downvote}}
   </div>
 </div>
