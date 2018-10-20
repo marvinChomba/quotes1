@@ -18,7 +18,9 @@ export class QuotesFormComponent implements OnInit {
     } else if(!/([a-z]+)|(\s)/ig.test(this.newQuote.author)) {
       $("#invalid-text").hide()
       $("#one").show();
+      $("#two").hide(); 
     } else if(!/([a-z]+)|(\s)/ig.test(this.newQuote.submitter)) {
+      $("#one").hide()
       $("#invalid-text").hide()
       $("#two").show();
     }
