@@ -39,7 +39,7 @@ The user can also delete quotes which they don't like
 3. __Enjoy__
 
 ### Known Bugs
-There are no know bugs. Contact marvin.chomba24@gmail.com incase of any bugs
+There are no known bugs. Contact marvin.chomba24@gmail.com incase of any bugs
 
 ### Live site
 You can view the live site [here](https://marvinchomba.github.io/quotes1/)
