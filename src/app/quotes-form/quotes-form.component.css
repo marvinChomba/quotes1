@@ -39,8 +39,11 @@ h2 {
   }
 }
 @media (max-width: 490px) {
+  body {
+    margin-left: 20%;
+  }
   #form {
-    position: relative;
-    right: 43%;
+    width: 300px;
+    margin: 0 auto;
   }
 }
