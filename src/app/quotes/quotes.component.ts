@@ -20,7 +20,7 @@ export class QuotesComponent implements OnInit {
     });
     let numHigh = Math.max(...this.highestArr);
     this.quotesList.forEach(element => {
-      if(element.upvote === numHigh && numHigh >= 5) {
+      if(element.upvote === numHigh) {
         element.highestVote = true;
       } else {
         element.highestVote = false;

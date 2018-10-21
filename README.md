@@ -20,9 +20,8 @@ The user can also delete quotes which they don't like
 1. A user fills the "Add Quote" form. He/she has to fill all the fields otherwise the user will not be allowed to submit it.The author and publisher fields have to be alpha characters **only**.
 2. After filling in the user can submit. The quote will be added at the top.
 3. The user can upvote a quote. The quote with the highest upvotes will be highlighted blue. 
-4. **ONLY QUOTES WITH MORE THAN  5 UPVOTES WILL BE HIGHLIGHTED**
-5. The user can also downvote quotes that they don't like.
-6. The user can delete a quote
+4. The user can also downvote quotes that they don't like.
+5. The user can delete a quote
 
     
 
@@ -36,7 +35,7 @@ The user can also delete quotes which they don't like
 ### Setup
 1. To access this project, you will need to clone it.
 2. Use this command in your terminal.
-`git clone https://github.com/marvinChomba/quotes`
+`git clone https://github.com/marvinChomba/quotes1`
 3. __Enjoy__
 
 ### Known Bugs
